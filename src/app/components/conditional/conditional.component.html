@@ -1,0 +1,5 @@
+<h2>Conditional render</h2>
+<p *ngIf="canShow; else cannotShow">Variável com valor TRUE</p>
+<ng-template #cannotShow>
+    <p>Variável com valor FALSE</p>
+</ng-template>
