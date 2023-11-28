@@ -3,3 +3,8 @@ export  interface IUserData {
     age: number,
     role: string
 }
+
+export interface IAnimal {
+    name: string,
+    type: string,
+}

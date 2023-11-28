@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { IUserData } from 'src/app/types/userData.model';
+import { IUserData } from 'src/app/types/general.model';
 
 @Component({
   selector: 'app-root',
