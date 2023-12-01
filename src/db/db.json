@@ -1,0 +1,24 @@
+{
+  "animals": [
+    {
+      "id": 2,
+      "name": "Kiulee",
+      "type": "Canguru"
+    },
+    {
+      "id": 3,
+      "name": "Panda",
+      "type": "Panda"
+    },
+    {
+      "id": 4,
+      "name": "Bailey",
+      "type": "Baleia"
+    },
+    {
+      "id": 5,
+      "name": "Panzo",
+      "type": "Chimpanzé"
+    }
+  ]
+}

@@ -1,26 +1,20 @@
-<h1>Main component</h1>
+<h1>Sistema legal e pa</h1>
 
-<app-test-component></app-test-component>
-
-<hr>
 <app-parent-data [userData]="userData"></app-parent-data>
 
 <hr>
-<app-directives></app-directives>
+
+<nav>
+    <a routerLink="/">Home</a>|
+    <a routerLink="/directives">Directives</a>|
+    <a routerLink="/conditional">Conditional</a>|
+    <a routerLink="/events">Events</a>|
+    <a routerLink="/emitter">Emitter</a>|
+    <a routerLink="/twoWayDataBinging">Two way data binding</a>|
+    <a routerLink="/list">List</a>
+</nav>
 
 <hr>
-<app-conditional></app-conditional>
-
-<hr>
-<app-events></app-events>
-
-<hr>
-<app-emitter></app-emitter>
-
-<hr>
-<app-list-render></app-list-render>
-
-<hr>
-<app-two-way-dt-binding></app-two-way-dt-binding>
+<router-outlet></router-outlet>
 
 <p style="padding-bottom:500px"></p>

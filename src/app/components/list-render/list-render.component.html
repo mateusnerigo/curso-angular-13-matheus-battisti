@@ -2,6 +2,7 @@
 
 <ul>
     <li *ngFor="let animal of animals">
-        Nome: {{ animal.name }} ({{ animal.type }})
+        Nome: <a routerLink="/list/{{ animal.id }}">{{ animal.name }}</a> ({{ animal.type }})
+        <button (click)="removeAnimal(animal)">Remover</button>
     </li>
 </ul>

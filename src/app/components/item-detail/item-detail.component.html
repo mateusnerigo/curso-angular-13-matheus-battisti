@@ -1,0 +1,8 @@
+<div *ngIf="animal">
+    <h2>Informações do animal</h2>
+
+    <p>Nome: {{animal?.name}}</p>
+    <p>Espécie: {{animal?.type}}</p>
+
+    <a routerLink="/list">Voltar</a>
+</div>

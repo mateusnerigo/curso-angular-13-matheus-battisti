@@ -5,6 +5,7 @@ export  interface IUserData {
 }
 
 export interface IAnimal {
+    id: number,
     name: string,
     type: string,
 }

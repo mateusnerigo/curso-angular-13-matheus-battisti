@@ -2,7 +2,7 @@
 
 <form>
     <input type="text" [(ngModel)]="username" name="username" placeholder="Digite o nome de usuário">
-    <input type="submit" value="Enviar">
+    <input type="button" value="Limpar" (click)="handleRemoveFormData()">
 </form>
 
 <p *ngIf="!!username">O nome de usuário é: {{ username }}</p>

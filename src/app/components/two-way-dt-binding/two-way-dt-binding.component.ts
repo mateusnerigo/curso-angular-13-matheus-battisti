@@ -12,4 +12,8 @@ export class TwoWayDtBindingComponent implements OnInit {
 
   ngOnInit(): void {
   }
+
+  handleRemoveFormData() {
+    this.username = '';
+  }
 }
