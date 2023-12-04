@@ -1,0 +1,45 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+    border-bottom: 1px solid  var(--gray);
+    height: 100px;
+}
+
+.brand,
+.links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.brand img {
+    width: 40px;
+    margin-right: 0.6em;
+}
+
+.brand h2 {
+    transition: .3s;
+}
+
+.brand:hover > h2 {
+    color: var(--primary);
+}
+
+.links li {
+    margin-right: 1em;
+    list-style: none;
+}
+
+.links a {
+    padding: .1em .3em;
+    border-radius: .3em
+}
+
+a#shareMoment {
+    color: var(--primary);
+}
+
+a#shareMoment:hover {
+    background-color: var(--light-gray);
+}
