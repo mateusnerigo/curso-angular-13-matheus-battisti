@@ -1,1 +1,9 @@
-<p>message works!</p>
+<div class="message" *ngIf="messageService.get()">
+    <div class="message-header">
+        <h2>System message:</h2>
+        <button class="clear" (click)="messageService.clear()">
+            <i class="fa-solid fa-xmark"></i>
+        </button>
+    </div>
+    <p>{{ messageService.get() }}</p>
+</div>
