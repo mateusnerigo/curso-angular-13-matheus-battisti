@@ -1,8 +1,11 @@
 :root {
     --black: #444;
     --gray: #777;
-    --light-gray: #efefef;
+    --light-gray: #ccc;
+    --white: #efefef;
+
     --red: #dc3545;
+    --blue: #007bff;
     --primary: #dec129;
 }
 
@@ -71,4 +74,49 @@ input[type="submit"]:hover {
     border-left: 3px solid var(--red);
     padding-left: .2em;
     font-size: .8em;
+}
+
+.edit-btn,
+.remove-btn {
+    border: 1px solid var(--white);
+    padding: 0.4em 1em;
+    font-size: 1em;
+    margin: 0 .5em;
+    cursor: pointer;
+    background-color: var(--white);
+    transition: .2s;
+}
+
+.edit-btn i,
+.remove-btn i {
+    transition: .2s;
+}
+
+button i,
+a i {
+    margin-right: .2em;
+}
+
+.edit-btn,
+.edit-btn i {
+    border-color: var(--blue);
+    color: var(--blue);
+}
+
+.edit-btn:hover *,
+.edit-btn:hover {
+    background-color: var(--blue);
+    color: var(--white);
+}
+
+.remove-btn,
+.remove-btn i {
+    border-color: var(--red);
+    color: var(--red);
+}
+
+.remove-btn:hover *,
+.remove-btn:hover {
+    background-color: var(--red);
+    color: var(--white);
 }
